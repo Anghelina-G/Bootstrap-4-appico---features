@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <title>Bootstrap 4 appico - features</title>
+
+    <style>
+        #features-wrapper{
+            background-color: #bbbbbb;
+        }
+        .list-group-item{
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+
+<div id="features-wrapper">
+
+   <section id="features" class="container">
+       <header class="text-center p-5">
+           <h1>Awesome Features - bsb4</h1>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+       </header>
+
+       <div class="row">
+           <ul class="col-md text-md-right list-group justify-content-around">
+               <li class="list-group-item">
+                   <h2>
+                       Lorem, ipsum.
+                   </h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet exercitationem dicta placeat maiores, excepturi quisquam.</p>
+               </li>
+               <li class="list-group-item active">
+                   <h2>
+                       Lorem, ipsum.
+                   </h2>
+                   <p>Sequi numquam, laboriosam quidem consequuntur iusto beatae ullam dolores, delectus tempora atque dignissimos facere enim?
+                       
+                    <a class="btn btn-info btn-lg btn-block" href="" data-toggle="modal" data-target="#order-model">
+                           Buy NOW!
+                        </a>
+                   </p>
+               </li>
+               <li class="list-group-item">
+                   <h2>
+                       Lorem, ipsum.
+                   </h2>
+                   <p>Id eveniet cupiditate, reprehenderit, illo tempora nisi voluptate rem excepturi ab harum odit quisquam saepe?</p>
+               </li>
+           </ul>
+
+           <figure class="col d-none d-lg-block">
+               <img class="img-fluid" src="https://html.dynamiclayers.net/at/appico/img/feature-moc.png" alt="promo image">
+           </figure>
+
+           <ul class="col-md list-group justify-content-around">
+               <li class="list-group-item">
+                   <h2>
+                       Lorem, ipsum.
+                   </h2>
+                   <p>Earum a suscipit expedita voluptatem fugiat nobis, non reiciendis doloribus ratione, aliquid harum error dignissimos.</p>
+               </li>
+               <li class="list-group-item">
+                   <h2>
+                       Lorem, ipsum.
+                   </h2>
+                   <p>Obcaecati quaerat voluptatum ducimus quae error voluptates, voluptatibus sint doloribus tenetur in repudiandae sunt quam!</p>
+               </li>
+               <li class="list-group-item">
+                   <h2>
+                       Lorem, ipsum.
+                   </h2>
+                   <p>Natus illo modi ex, optio, veritatis a neque doloribus maxime, totam sunt provident sed mollitia!</p>
+               </li>
+           </ul>
+       </div>
+   </section>
+</div> 
+
+
+<!-- The Modal -->
+<div class="modal fade" id="order-model">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Order detils</h4>
+          <button type="button" class="close" data-dismiss="modal"><i class="far fa-times-circle"></i></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form action="/action_page.php">
+
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter email" id="email">
+                </div>
+    
+                <div class="form-group">
+                    <label for="fullname">Fullname:</label>
+                    <input type="text" class="form-control" placeholder="Enter youre full name" id="fullname">
+                  </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone number:</label>
+                    <input type="text" class="form-control" placeholder="Enter phone (+373-xx-xx-xx" id="phone">
+                  </div>
+
+                <div class="form-group form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">
+
+                    I agree with the <a href="#terms" data-toggle="collapse">terms</a> 
+                    <div id="terms" class="collapse">
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, odio.</p>
+                        <p>Error cumque blanditiis magnam placeat voluptatem aspernatur mollitia ea corrupti.</p>
+                        <p>Deleniti temporibus itaque quibusdam quidem voluptatibus officiis ipsum aperiam sequi!</p>
+                        <hr>    
+                    </div>
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block rounded-pill">ORDER!</button>
+              </form> 
+        </div>
+  
+        <!-- Modal footer -->
+        <!-- <div class="modal-footer">
+         footer -->
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+</body>
+</html>
